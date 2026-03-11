@@ -95,6 +95,15 @@ jobs:
           echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=n" >> .config # IPTV
           echo "CONFIG_FIRMWARE_INCLUDE_OPENSSH=n" >> .config # OPENSSH
           echo "CONFIG_FIRMWARE_INCLUDE_DROPBEAR=y" >> .config # dropbear SSH
+          echo "CONFIG_FIRMWARE_INCLUDE_SAMBA=y" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_SMBD3=y" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_P910ND=y" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_E2FSCK=y" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_NTFS3G=y" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_EXFAT=y" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_EXT4=y" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_HDPARM=y" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_PARTED=y" >> .config
           #########################################################################################
           #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
           #格式如下：
